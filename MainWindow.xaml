@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfAppYahtzee.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppYahtzee"
+        mc:Ignorable="d"
+        Title="Yahtzee" Height="450" Width="800">
+    <Grid x:Name="myGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Yahtzee.jpg"></ImageBrush>
+        </Grid.Background>
+        <StackPanel x:Name="spStartInformation" HorizontalAlignment="Center" VerticalAlignment="Center" Background="DarkBlue" Width="350">
+            <TextBlock FontSize="35" TextAlignment="Center" FontWeight="Bold" Foreground="Wheat">How many players?</TextBlock>
+            <StackPanel Orientation="Horizontal" Background="Yellow" HorizontalAlignment="Center">
+                <TextBlock x:Name="tbPlayerAmount" FontSize="55" FontWeight="Bold" TextAlignment="Center" Width="200" Height="70">4</TextBlock>
+                <StackPanel>
+                    <Button x:Name="btUp" Width="150" Height="35" FontSize="30" FontWeight="Black" Background="LightGreen" Click="btUp_Click">^</Button>
+                    <Button x:Name="btDown" Width="150" Height="35" FontSize="30" FontWeight="Black" Background="Firebrick" Click="btDown_Click" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="180"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform> ^
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+            <Button x:Name="btInsertPlayers" Content="Go!" FontSize="40" FontWeight="Bold" Background="BurlyWood" Click="btInsertPlayers_Click"></Button>
+        </StackPanel>
+        <StackPanel Visibility="Hidden" x:Name="spDobbelstenen" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="40,0,0,0">
+            <Image Source="Assets/Dobbelsteendef.jpg" Width="80" Margin="0,5,0,0"></Image>
+            <Image Source="Assets/Dobbelsteendef.jpg" Width="80" Margin="0,5,0,0"></Image>
+            <Image Source="Assets/Dobbelsteendef.jpg" Width="80" Margin="0,5,0,0"></Image>
+            <Image Source="Assets/Dobbelsteendef.jpg" Width="80" Margin="0,5,0,0"></Image>
+            <Image Source="Assets/Dobbelsteendef.jpg" Width="80" Margin="0,5,0,0"></Image>
+        </StackPanel>
+        <StackPanel Visibility="Hidden" x:Name="cbDobbelstenen" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="120,0,0,0">
+            <CheckBox Width="80"></CheckBox>
+            <CheckBox Width="80" Margin="0,72,0,0"></CheckBox>
+            <CheckBox Width="80" Margin="0,72,0,0"></CheckBox>
+            <CheckBox Width="80" Margin="0,72,0,0"></CheckBox>
+            <CheckBox Width="80" Margin="0,72,0,0"></CheckBox>
+        </StackPanel>
+        <Button Visibility="Hidden" x:Name="btRoll" FontSize="20" FontWeight="Bold" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,490,0,0" Click="rolldice_Click" Content="Roll dice"></Button>
+        <TextBlock Visibility="Hidden" TextAlignment="Center" x:Name="tbRolls" FontSize="20" FontWeight="Bold" Width="50" HorizontalAlignment="Left" Background="White" VerticalAlignment="Center" Margin="50,550,0,0">0</TextBlock>
+    </Grid>
+</Window>

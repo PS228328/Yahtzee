@@ -1,0 +1,15 @@
+C:\School\Funprojecten nieuw\WpfAppYahtzee\bin\Debug\WpfAppYahtzee.exe.config
+C:\School\Funprojecten nieuw\WpfAppYahtzee\bin\Debug\WpfAppYahtzee.exe
+C:\School\Funprojecten nieuw\WpfAppYahtzee\bin\Debug\WpfAppYahtzee.pdb
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.csproj.AssemblyReference.cache
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\MainWindow.g.cs
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\App.g.cs
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee_MarkupCompile.cache
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee_MarkupCompile.lref
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\MainWindow.baml
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.g.resources
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.Properties.Resources.resources
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.csproj.GenerateResource.cache
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.csproj.CoreCompileInputs.cache
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.exe
+C:\School\Funprojecten nieuw\WpfAppYahtzee\obj\Debug\WpfAppYahtzee.pdb
